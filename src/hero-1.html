@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- FRONT END BY @fataelislami -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Content goes here -->
+        <nav class="flex items-center mt-5 justify-between">
+            <img src="assets/hero-1/SVG/logo.svg" class="w-44 lg:w-60"></img>
+            <div class="lg:flex items-center hidden space-x-10">
+                <a href="#">Home</a>
+                <a href="#" class="font-bold">About Us</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Search</a>
+                <svg class="w-36 bg-gray-300 rounded-full h-4"></svg>
+            </div>
+            <div class="lg:hidden block transform transition ease-in hover:-translate-y-1 cursor-pointer" onclick="toggleNavMobile()">
+                <img src="assets/menu-mobile-icon.svg" class=" w-6">
+            </div>
+        </nav>
+        <div id="nav-mobile" class="hidden absolute w-full z-10 bg-white left-0 right-0 lg:hidden">
+            <div class="flex flex-col space-y-3 mb-3 items-center">
+                <a href="#">Home</a>
+                <a href="#" class="font-bold">About Us</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Search</a>
+            </div>
+        </div>
+        <div class="flex items-center flex-col-reverse mt-10 lg:flex-row">
+            <div class="w-full lg:w-5/12 space-y-5">
+                <h1 class="relative font-poppins text-5xl font-bold"><span class="absolute w-6 h-1 -top-4 bg-black rounded-full"></span>We work<br>your ideas</h1>
+                <h5 class=" font-poppins" >Description of services who we are as a company<br>and same filler text about us the company</h5>
+                <button class="bg-black w-28 text-white  rounded-full font-semibold h-7 transform hover:-translate-y-1 transition ease-in">Click Here</button>
+                <div class="flex space-x-5 pt-4">
+                    <img src="assets/hero-1/SVG/avatar-active.svg" class="w-16">
+                    <img src="assets/hero-1/SVG/avatar-off.svg" class="w-16">
+                    <img src="assets/hero-1/SVG/avatar-off.svg" class="w-16">
+                </div>
+                <h5 class=" font-poppins font-semibold">> see creative work</h5>
+            </div>
+            <div id="container-hero" style="perspective: 25px;" class="w-full lg:w-7/12 p-2">
+                <img id="inner-hero" src="assets/hero-1/SVG/hero-image.svg" class="transition ease-in w-full">
+            </div>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+    <script  src="assets/hero-1/js/hero1.js"></script>
+</body>
+
+</html>
