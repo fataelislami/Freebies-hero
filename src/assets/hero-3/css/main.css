@@ -1,0 +1,11 @@
+.bg-hero {
+    background: url("../background.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-color:darkblue;
+}
+
+.bg-nav-side {
+    background: rgb(33,12,79);
+    background: radial-gradient(circle, rgba(33,12,79,0.727328431372549) 0%, rgba(0,0,0,0.5956757703081232) 100%);
+}

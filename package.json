@@ -12,7 +12,8 @@
     "build": "snowpack build"
   },
   "dependencies": {
-    "tailwindcss": "^2.2.7"
+    "tailwindcss": "^2.2.7",
+    "three": "^0.131.3"
   },
   "devDependencies": {
     "@snowpack/plugin-build-script": "^2.1.0",
